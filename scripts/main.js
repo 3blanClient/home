@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     initCursor();
-    initParticles();
     initScrollEvents();
     initShowcaseSlider();
     initFaqAccordion();
