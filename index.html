@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3blanClient - Премиум чит для Minecraft</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <span>3blan</span><span class="accent">Client</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Функции</a>
+                <a href="#showcase" class="nav-link">Галерея</a>
+                <a href="#download" class="nav-link">Скачать</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </div>
+            <div class="social-links">
+                <a href="https://discord.gg/your-server" target="_blank" class="social-button discord">
+                    <i class="fab fa-discord"></i> Discord
+                </a>
+                <a href="https://t.me/your-channel" target="_blank" class="social-button telegram">
+                    <i class="fab fa-telegram-plane"></i> Telegram
+                </a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="glitch-text" data-text="3blanClient">3blanClient</h1>
+            <p class="subtitle">Революционный чит-клиент для Minecraft</p>
+            <div class="hero-buttons">
+                <a href="#download" class="primary-button">
+                    <i class="fas fa-download"></i> Скачать сейчас
+                </a>
+                <a href="#features" class="secondary-button">
+                    <i class="fas fa-info-circle"></i> Узнать больше
+                </a>
+            </div>
+        </div>
+        <div class="hero-graphic">
+            <div class="cube-wrapper">
+                <div class="cube">
+                    <div class="cube-face front"></div>
+                    <div class="cube-face back"></div>
+                    <div class="cube-face right"></div>
+                    <div class="cube-face left"></div>
+                    <div class="cube-face top"></div>
+                    <div class="cube-face bottom"></div>
+                </div>
+            </div>
+        </div>
+        <div class="particles"></div>
+    </section>
+
+    <section id="features" class="features">
+        <h2 class="section-title">Превосходные возможности</h2>
+        <div class="features-grid">
+            <div class="feature-card" data-aos="fade-up">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Антидетект</h3>
+                <p>Передовая система обхода античитов на всех популярных серверах</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-icon">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h3>ESP & Wallhack</h3>
+                <p>Видение игроков, мобов и ценных ресурсов сквозь стены</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-icon">
+                    <i class="fas fa-crosshairs"></i>
+                </div>
+                <h3>Aimbot</h3>
+                <p>Автоматическое наведение на цели с настраиваемыми параметрами</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Speed Hack</h3>
+                <p>Увеличение скорости передвижения, копания и других действий</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="feature-icon">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <h3>X-Ray</h3>
+                <p>Легко находите алмазы и другие ценные блоки в пещерах</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="feature-icon">
+                    <i class="fas fa-sliders-h"></i>
+                </div>
+                <h3>Настройки</h3>
+                <p>Полностью настраиваемый интерфейс и функции под ваш стиль игры</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="showcase" class="showcase">
+        <h2 class="section-title">Галерея</h2>
+        <div class="showcase-wrapper">
+            <div class="showcase-item">
+                <img src="images/showcase1.jpg" alt="3blanClient Gameplay">
+            </div>
+            <div class="showcase-item">
+                <img src="images/showcase2.jpg" alt="3blanClient Interface">
+            </div>
+            <div class="showcase-item">
+                <img src="images/showcase3.jpg" alt="3blanClient X-Ray">
+            </div>
+        </div>
+        <div class="showcase-nav">
+            <button class="showcase-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+            <div class="showcase-dots"></div>
+            <button class="showcase-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+<section id="download" class="download">
+    <div class="download-container">
+        <h2 class="section-title">Купить 3blanClient</h2>
+        <div class="download-options">
+            <div class="download-card" style="max-width: 400px; margin: 0 auto; background: var(--card-bg); border: 2px solid var(--accent-color); box-shadow: 0 0 30px rgba(0, 204, 255, 0.4);">
+                <div class="download-card-header">
+                    <i class="fas fa-gem" style="color: var(--accent-color); font-size: 48px;"></i>
+                    <h3 style="color: var(--accent-color); font-size: 32px; margin-top: 10px;">Release</h3>
+                </div>
+                <ul class="download-features">
+                    <li><i class="fas fa-check" style="color: var(--accent-color);"></i> Продвинутое скрытие клиента</li>
+                    <li><i class="fas fa-check" style="color: var(--accent-color);"></i> Встроенные облачные конфиги</li>
+                    <li><i class="fas fa-check" style="color: var(--accent-color);"></i> Автоматические обновления</li>
+                    <li><i class="fas fa-check" style="color: var(--accent-color);"></i> Приоритетная поддержка</li>
+                    <li><i class="fas fa-check" style="color: var(--accent-color);"></i> Эксклюзивные функции</li>
+                </ul>
+                <a href="#" class="download-button" data-version="vip" style="background: var(--gradient-accent); border: none; box-shadow: 0 0 20px rgba(0, 204, 255, 0.5);">
+                    <i class="fas fa-shopping-cart"></i> Купить за 119 ₽
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="faq" class="faq">
+        <h2 class="section-title">Часто задаваемые вопросы</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Как установить 3blanClient?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>После установки перекиньте файл в ./mods. И запустите майнкрафт через версию Fabric 1.21.1.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Могут ли меня забанить за использование чита?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>3blanClient разработан с использованием передовых технологий обхода античитов, но 100% гарантий нет. Для максимальной безопасности рекомендуем соблюдать меры предосторожности.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>С какими версиями Minecraft совместим клиент?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>3blanClient совместим с версией 1.21.1. Мы регулярно обновляем клиент для поддержки новейших версий игры.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Как получить поддержку при возникновении проблем?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Присоединяйтесь к нашему Discord серверу или Telegram каналу для получения технической поддержки и обновлений.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>3blan</span><span class="accent">Client</span>
+                <p>Лучший чит-клиент для Minecraft в 2025 году</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-links-column">
+                    <h3>Навигация</h3>
+                    <a href="#features">Функции</a>
+                    <a href="#showcase">Галерея</a>
+                    <a href="#download">Скачать</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+                <div class="footer-links-column">
+                    <h3>Сообщество</h3>
+                    <a href="https://discord.gg/your-server" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+                    <a href="https://t.me/your-channel" target="_blank"><i class="fab fa-telegram-plane"></i> Telegram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 3blanClient. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html> 
