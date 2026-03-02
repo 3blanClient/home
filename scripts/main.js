@@ -310,10 +310,10 @@ function initDownloadButtons() {
                 
                 setTimeout(() => {
                     button.innerHTML = version === 'free' ? 
-                        '<i class="fas fa-download"></i> Скачать бесплатно' : 
+                        '<i class="fas fa-download"></i> Купить бесплатно' : 
                         version === 'premium' ? 
-                        '<i class="fas fa-download"></i> Скачать Premium' : 
-                        '<i class="fas fa-shopping-cart"></i> Купить за 600 ₽';
+                        '<i class="fas fa-download"></i> Купить Release' : 
+                        '<i class="fas fa-shopping-cart"></i> Купить за 119 ₽';
                 }, 2000);
             }, 2000);
         });
